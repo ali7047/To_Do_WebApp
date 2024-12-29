@@ -9,7 +9,7 @@ if not os.path.exists("../todo_list.txt"):
 
 
 st.title("My To-do App")
-st.subheader("Your to do tasks:")
+st.subheader("Your to do tasks:\n Click on the checkbox button once you complete.")
 todo_list = func.show_items()
 
 def add_todo():
